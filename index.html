@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <form  action="#" onsubmit="return validate()">
+    <div class="row justify-content-center three">
+        <div class="col-md-5  one">
+            <h3 class="h31">General Information</h3>
+            <div class="form-floating">
+                <select class="form-select" id="title">
+                  <option value="Select"></option>  
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <label>Title</label>
+                <span id="Title" class="text-danger"></span>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="fname">
+                <label>First Name</label>
+                <span id="name" class="text-danger"></span>
+            </div>      
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="lname">
+                  <label>Last Name</label>
+                  <span id="name1" class="text-danger"></span>
+              </div>
+                     
+                </div>
+            </div>
+            <div class="form-floating">
+                <select class="form-select" id="position" >
+                  <option value="position"></option>  
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <label>Position</label>
+                <span id="Position" class="text-danger"></span>
+              </div>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="company">
+                <label>Company</label>
+                <span id="Company" class="text-danger"></span>
+            </div>  
+            <div class="row">
+            <div class="col-sm-7">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="arena">
+              <label>Business Arena</label>
+              <span id="Arena" class="text-danger"></span>
+          </div>    
+            </div>
+            <div class="col-sm-5">
+                <div class="form-floating">
+                    <select class="form-select" id="employ" >
+                      <option value="employ"></option>  
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <label>Employees</label>
+                    <span id="Employ" class="text-danger"></span>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-5 two">
+            <h3>Contact Details</h3>
+            <div class="form-floating">
+                <input type="text" class="form-control four" id="street">
+                <label>Street + Nr</label>
+                <span id="Street" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control four" id="info">
+                <label>Additional Information</label>
+                <span id="Info" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+            <div class="form-floating">
+              <input type="text" class="form-control four" id="zip">
+              <label>Zip Code</label>
+              <span id="Zip" class="text-danger"></span>
+          </div>         
+            </div>
+            <div class="col-md-8">
+                <div class="form-floating">
+                    <select class="form-select four" id="place">
+                      <option value="Place"></option>  
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <label>Place</label>
+                    <span id="Place" class="text-danger"></span>
+                  </div>
+              </div>
+          </div>
+          <div class="form-floating">
+            <select class="form-select four" id="country" >
+              <option value="country"></option>  
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <label>Country</label>
+            <span id="Country" class="text-danger"></span>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+        <div class="form-floating">
+          <input type="number" class="form-control four" id="code">
+          <label>Code+</label>
+          <span id="Code" class="text-danger"></span>
+      </div>
+             
+        </div>
+        <div class="col-md-8">
+            <div class="form-floating">
+                <input type="text" class="form-control four" id="phone">
+                <label>Phone Number</label>
+                <span id="Phone" class="text-danger"></span>
+          </div>
+      </div>
+        </div>
+        <div class="form-floating">
+            <input type="email" class="form-control four" id="mail">
+            <label>Your Email</label>
+            <span id="Mail" class="text-danger"></span>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" id="terms">
+            <label class="form-check-label" for="flexRadioDefault1">
+              I do accept the <span>Terms and conditions</span> <br>of your site.
+            </label><br>
+            <span id="Terms" class="text-dark"></span>
+          </div>
+          <button type="submit" class="btn btn-light">Register Badge</button>
+    </div>
+    </div>
+  </form>
+</div>    
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    background-color:#86afd4;
+}
+.form-select{
+    border-width: 0 0 2px 0;
+}
+.form-control{
+    border-width: 0 0 2px 0; 
+}
+.form-floating{
+    margin-top: 1pc;
+}
+.four{
+    background-color:#6954c7 ;
+    color: white;
+}
+
+.h31{
+    color:#3583c7 ;
+}
+.col-md-5{
+    background-color: white;
+    padding: 3pc;
+}
+.two{
+    background-color: #6954c7;
+    color: white;
+
+}
+
+.container{
+    align-content: center;
+    margin-top: 2pc;
+    margin-bottom: 2pc;
+}
+.form-check{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.btn-light{
+    font-weight: 600;
+    width: 11pc;
+    height: 3pc;
+    border-radius: 2pc;
+}
+span{
+    font-size: 14px;
+    font-weight: 500;
+}
