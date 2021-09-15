@@ -74,10 +74,10 @@ function validate(){
         document.getElementById('Code').innerHTML = "**Please fill the code";
         return false;
     }
-    // if (code.length=2){
-    //     document.getElementById('Code').innerHTML = "**Please fill valid code";
-    //     return false;
-    // }
+    if (code.length=2){
+        document.getElementById('Code').innerHTML = "**Please fill valid code";
+        return false;
+    }
     if (phone==""){
         document.getElementById('Phone').innerHTML = "**Please fill the Mobile field";
         return false;
